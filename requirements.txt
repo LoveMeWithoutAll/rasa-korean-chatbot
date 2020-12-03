@@ -1,0 +1,5 @@
+rasa~=2.1.2
+konlpy~=0.5.2
+spacy~=2.3.4
+transformers~=4.0.0
+torch~=1.7.0
