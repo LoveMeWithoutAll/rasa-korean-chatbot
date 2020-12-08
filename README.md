@@ -12,7 +12,7 @@
 
 1. open `config.yml`
 1. edit line #17 `model_weights` from `bert-base-multilingual-cased` to other one like `snunlp/KR-BERT-char16424` and `monologg/kobert`
-1. open `path/lib/python3.x/site-packages/transformers/modeling_utils.py`
+1. open `path/lib/python3.x/site-packages/transformers/modeling_tf_utils.py`
 1. edit line #640 from `from_pt = kwargs.pop("from_pt", False)` to `from_pt = kwargs.pop("from_pt", True)`
 
 Rasa v2.1.2 does not yet support train from pytorch models. So some editing code is needed.
